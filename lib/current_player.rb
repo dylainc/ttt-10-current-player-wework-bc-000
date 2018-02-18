@@ -11,7 +11,7 @@ def turn_count(board)
       puts token
     end
   end
-  counter
+  #counter
 end
 
 
