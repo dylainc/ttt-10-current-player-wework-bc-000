@@ -7,11 +7,11 @@ def turn_count(board)
   board.each do |token|
     if token == "X" || token == "O"
       counter = counter + 1
-      puts counter
-      puts token
+      #puts counter
+      #puts token
     end
   end
-  #counter
+  counter
 end
 
 
