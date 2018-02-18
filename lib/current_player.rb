@@ -5,7 +5,9 @@
 def turn_count(board)
   counter = 0
   board.each do |token|
-    puts token
+    if token == "X"
+      puts token
+    end
   end
   counter
 end
