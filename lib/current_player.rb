@@ -9,7 +9,7 @@ def turn_count(board)
       counter +=
     end
   end
-  puts counter
+  counter
 end
 
 
